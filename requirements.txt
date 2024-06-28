@@ -1,5 +1,5 @@
 streamlit
-h2o==3.34.0.1
+h2o==3.44.0.3
 plotly==5.1.0
 pillow
 pandasai
