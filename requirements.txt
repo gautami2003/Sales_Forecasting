@@ -2,6 +2,6 @@ streamlit
 h2o==3.34.0.1
 plotly==5.1.0
 pillow
-pandasai  # Replace with the exact package name if different, assuming it's correct
+pandasai
 numpy==1.21.0
 pandas==1.3.0
