@@ -1,11 +1,7 @@
 streamlit
-pandas
-h2o
-plotly
-pillow
-pandasai  # Assuming this is a package you are using, verify the exact package name
-numpy==1.21.0
-pandas==1.3.0
 h2o==3.34.0.1
 plotly==5.1.0
-
+pillow
+pandasai  # Replace with the exact package name if different, assuming it's correct
+numpy==1.21.0
+pandas==1.3.0
