@@ -1,0 +1,6 @@
+streamlit
+pandas
+h2o
+plotly
+pillow
+pandasai  # Assuming this is a package you are using, verify the exact package name
