@@ -1,7 +1,7 @@
-streamlit
-h2o==3.44.0.3
-plotly==5.1.0
-pillow
-pandasai
-numpy==1.21.0
+streamlit==1.10.0
 pandas==1.3.0
+Pillow==8.3.0
+pandasai
+h2o==3.34.0.1
+plotly==5.3.1
+numpy==1.21.0
