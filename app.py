@@ -27,7 +27,7 @@ train, test, stores, holiday_events, oil, transaction = load_datasets()
 merged_dataframe_copy = pd.read_csv("datasets/visualization_Data.csv")
 
 # Setting the PandasAI API key
-os.environ["PANDASAI_API_KEY"] = "YOUR_PANDASAI_API_KEY"
+os.environ["PANDASAI_API_KEY"] = "$2a$10$W6UbS3Te6aW/ORn2ZngEnO4j3WdtsJCm7mWDeKL4AYEy.IrQzLYPW"
 
 # Option 1: Sales Data Overview
 def option_1():
