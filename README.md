@@ -15,20 +15,20 @@ Users can analyze the sales data and predict future trends using a Random Forest
 
 ## Installation
 
-1. *Clone the repository*:
+1. Clone the repository:
 
-   git clone https://github.com/gautami2003/Sales_Forecasting.git
-   cd Sales_Forecasting
+         git clone https://github.com/gautami2003/Sales_Forecasting.git
+         cd Sales_Forecasting
 
    Install the necessary dependencies:
 
-    pip install -r requirements.txt
+          pip install -r requirements.txt
 
 2. Run the Streamlit app:
 
-   streamlit run app.py
+         streamlit run app.py
 
-##*Datasets*
+## Datasets
 The application uses several datasets for analysis:
 
 train.csv: Contains the training data.
@@ -39,7 +39,7 @@ oil.csv: Contains oil price data.
 transactions.csv: Contains transaction data.
 These datasets must be placed in the root directory or properly referenced in the code.
 
-##Usage
+## Usage
 Upon launching the app, users will be presented with three main options:
 
 Sales Data Overview: View the first 20 records of the selected dataset.
@@ -48,8 +48,8 @@ Sales Analysis and Future Trends: Analyze the sales data, visualize predictions,
 Model
 The app uses an H2O Random Forest model for making predictions. The model is trained on the sales data and can predict sales or oil prices based on selected independent variables. Feature importance is also provided to help users understand the impact of each variable on the predictions.
 
-##API Key
+## API Key
 The app utilizes the PandasAI API for processing queries. Ensure to set the PANDASAI_API_KEY in your environment variables before running the app.
 
-##Contributing
+## Contributing
 Feel free to submit issues or pull requests if you would like to contribute to this project.
